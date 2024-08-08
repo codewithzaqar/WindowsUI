@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Windows10 Framework</title>
+    
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />     
+    <link rel="stylesheet" type="text/css" href="app_config/css/appConfig.css" />
+    <link rel="stylesheet" type="text/css" href="app_config/css/accentColor.css" />
+    <link rel="stylesheet" type="text/css" href="assets/windows10framework.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font/styles.min.css">
+   
+
+    
+   
+  
+</head>
+    
+	
+<body>
+			
+<div class="app-container">
+			
+<!-- Top Navigation -->
+    <div class="app-tabs"> 
+        
+	   <div id="app-wrapper">           
+        <nav class="animate">       
+        <!-- For App Name--> 
+        <span id="app-name">Windows10 Framework</span>
+        
+        <ul>
+            <a href="#" class="app-nav-toggler" id="menu-toggle"></a>
+            <br>
+
+            <li><a href="#app-section-1" class="nav-icon icons8-grid-3"><span>Form Elements</span></a></li>
+            <li><a href="#app-section-2" class="nav-icon icons8-tasks"><span>Advance Component</span></a></li>
+
+        </ul>
+        </nav>
+       </div>	
+    
+    
+    <div class="app-content-wrap">
+    
+        
+        
+        
+        
+    <!-- Section 1 -->
+     <section id="app-section-1">
+         
+        
+  
+        <div class="app-section-container">
+            
+        <h3>Form Elements</h3>
+            
+            
+        <h5 class="spaning">Toggle</h5>
+            
+            <label class="app-toggle">
+                <input checked="true" type="checkbox"/>
+                <div data-off="Off" data-on="On">Notification</div>
+            </label>
+
+
+        <h5 class="spaning">SliderBar</h5> 
+            
+            <div class="app-range-slider">
+                <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                <span class="range-slider__value" style="">100</span>
+            </div>
+            
+            
+            
+            
+            
+        <h5 class="spaning">Check Box</h5>       
+
+            <div class="app-checkbox">
+                <input id="i2" type="checkbox" checked>
+                <label for="i2">Item 1</label>
+            </div>
+              <div class="app-checkbox">
+                <input id="i1" type="checkbox">
+                <label for="i1">Item 2</label>
+              </div>
+              <div class="app-checkbox">
+                <input id="i3" type="checkbox">
+                <!-- Use label even if no text required -->
+                <label for="i3"></label>
+              </div>
+
+              <div class="app-checkbox">
+                <input id="i4" type="checkbox" disabled="disabled" checked>
+                <label for="i4">Disabled</label>
+              </div>
+              <div class="app-checkbox">
+                <input id="i5" type="checkbox" disabled="disabled">
+                <label for="i5">Disabled</label>
+              </div>
+
+              <div>
+                <div class="app-checkbox app-checkbox-inline">
+                  <input id="i10" type="checkbox">
+                  <label for="i10">Inline & Centered</label>
+                </div>
+              </div>
+            
+            
+            
+    
+    
+        <h5 class="spaning">InputTextBox</h5> 
+
+            <input type="text" placeholder="Hellow"/>
+
+
+        <h5 class="spaning">InputPasswordBox</h5>
+            
+            <div class="password-container">
+              <input type="password" value="" placeholder="Enter Password" id="password" class="password">
+              <button class="unmask" type="button" title="Mask/Unmask password to check content">Unmask</button>
+            </div> 
+
+
+          <h5 class="spaning">InputQuantity</h5>
+            
+            <div class="quantity">
+            <input type="number" min="1" max="9" step="1" value="1">
+            </div>        
+
+
+        <h5 class="spaning">OptionBox</h5> 
+            
+            <div class="app-select">
+                <select name="slct" id="slct">
+                    <option selected>Choose an option</option>
+                    <option value="1">Java</option>
+                    <option value="2">Python</option>
+                    <option value="3">C++</option>
+                </select>
+            </div>  
+
+
+        <h5 class="spaning">SearchBox</h5>  
+            
+            <div class="searchBar"> 
+                <input type="search" style="margin:auto;" placeholder="Search here"/>
+                <input class="search_submit" type="submit" value=" "/>
+            </div>
+
+
+            
+            
+       <h5 class="spaning">Date Picker</h5>     
+           <input type="date">
+           
+            
+                     
+            
+            
+            
+      <h5 class="spaning">Buttons</h5>
+            
+        <h6 class="spaning">Default Button</h6>       
+            <input type="button" value="Demo button" />
+
+
+
+        <h6 class="spaning">Animate Button</h6>         
+            <input type="button" class="animate" value="Animate button" />
+
+
+
+
+
+        <h5 class="spaning">Radio Buttons</h5>         
+            <div class="app-radio">
+                <input id="radio-1" name="radio" type="radio" checked>
+                <label for="radio-1" class="app-radio-label"><span class="app-radio-span">Checked</span></label>
+            </div>
+
+            <div class="app-radio">
+                <input id="radio-2" name="radio" type="radio">
+                <label  for="radio-2" class="app-radio-label"><span class="app-radio-span">Unchecked</span></label>
+            </div>
+
+            <div class="app-radio">
+                <input id="radio-3" name="radio" type="radio" disabled>
+                <label for="radio-3" class="app-radio-label"><span class="app-radio-span">Disabled</span></label>
+            </div>
+
+
+
+
+
+
+
+        <h5 class="spaning">Links</h5>
+            
+        <h6 class="spaning sub">Default Links</h6>     
+            <a href="#" class="app-link">Default App Link</a><br>
+            <a href="#" class="app-link bold">Default Bold App Link</a><br><br>    
+
+
+        <h6 class="spaning sub">Link with icon</h6>        
+            <a href="#" class="app-link"><span class="step app-link size-24"><i id="icons8-electrical" class="icons8-monitor"></i></span> App Link with icon</a><br><br>
+
+
+        <h6 class="spaning sub">Compound Link bar</h6>        
+            <div class="app-link-compound-container"><a href="#" class="app-link-compound">
+                <span class="app-link-compound step size-36">
+                    <i id="icons8" class="icons8-timeline"></i>
+                </span> App Volume and device preference<p>Customise app volumes and speakers or devices they use</p>
+                </a> 
+            </div> 
+
+
+        <h6 class="spaning sub">Accent Compound Link bar</h6>        
+            <div class="app-link-compound-accent-container"><a href="#" class="app-link-compound-accent">
+                <span class="app-link-compound-accent step size-36">
+                    <i id="icons8" class="icons8-idea"></i></span> App Volume and device preference<p>Customise app volumes and speakers or devices they use</p>
+                </a> 
+            </div>         
+            
+         </div>
+          
+     </section>
+    
+    
+    
+    
+    
+       
+        
+    <!-- Section 2 -->    
+    <section id="app-section-2">
+        
+        <div class="app-section-container">
+         
+          <h3>Advance Components</h3>   
+            
+            
+  
+            <h5 class="spaning">Compound link with switch</h5>             
+                <div class="app-link-compound-container withSwitch">
+                <a href="#" class="app-link-compound">
+                    <span class="app-link-compound step size-36">
+                        <i id="icons8" class="icons8-idea"></i>
+                    </span>App Volume and device preference<p>Customise app volumes and speakers or devices they use</p>
+                </a>            
+                <label class="app-toggle">
+                    <input checked="true" type="checkbox"/>
+                    <div data-off="Off" data-on="On">Volume</div>
+                </label>       
+                </div>
+            
+            
+            
+            <h5 class="spaning sub">Compound Accent-icon Link bar</h5>    
+                <div class="app-link-compound-container"><a href="#" class="app-link-compound">
+                    <span class="app-link-compound step icon-accent size-36">
+                        <i id="icons8" class="icons8-camera"></i>
+                    </span>App Camera and device preference<p>Customise app camera or devices they use</p>
+                    </a> 
+                </div> 
+            
+            
+            
+            <h5 class="spaning sub">Compound Add Link bar</h5>        
+                <div class="app-link-compound-container"><a href="#" class="app-link-compound">
+                    <span class="app-link-compound step icon-add size-36">
+                        <i id="icons8" class="icons8-plus"></i>
+                    </span>Add more apps<p>apps available in store show here</p>
+                    </a> 
+                </div> 
+            
+            
+            
+            <br>
+            <h5 class="spaning">Button with loader</h5>   
+               <div class="button withLoader">
+                <input type="button" class="animate" value="button with loader" />
+                    <div class="app-busy-loader small">
+                        <div class="w-ball-wrapper ball-1">
+                        <div class="w-ball"></div></div>
+                        <div class="w-ball-wrapper ball-2">
+                        <div class="w-ball"></div></div>
+                        <div class="w-ball-wrapper ball-3">
+                        <div class="w-ball"></div></div>
+                        <div class="w-ball-wrapper ball-4">
+                        <div class="w-ball"></div></div>
+                        <div class="w-ball-wrapper ball-5">
+                        <div class=" w-ball"></div></div>
+                    </div>
+               </div>
+            
+            
+            
+            <h1>Heading1</h1>
+            <h2>Heading2</h2>
+            <h3>Heading3</h3>
+            <h4>Heading4</h4>
+            <h5>Heading5</h5>
+            <h6>Heading6</h6>
+            
+            <h2 class="spaning">Heading No Margin</h2> 
+                <h3 class="spaning no-margin">Heading with no top and bottom margin</h3>
+               
+            
+            <h5 class="spaning">Paragraph</h5>     
+                <p class="app-para">This is paragraph used to display long text in your windows application.</p>
+            
+            <h5 class="spaning">Paragraph Light</h5>  
+                <p class="app-para light">This is light paragraph used to display long text in your windows application.</p>
+            
+            
+            
+            <!--    Right Section Container        -->
+            
+            <div class="app-section-container-right">
+                <h6 class="spaning no-margin">Right Section Container</h6>             
+                    <p class="app-para light">If you cant find the network you want select to show available networks to open the list of available networks</p>
+             
+                    <a href="#" class="app-link">Still cant connect? Open the troubleshooter</a><br>
+             
+                    <h6 class="spaning">Related Settings</h6>
+                        <a href="#" class="app-link">Change Adaptor option</a><br>             
+                        <a href="#" class="app-link">Change Advance sharing option</a><br>         
+            </div>
+            
+            
+        </div>        
+        
+    </section>    
+ 
+    </section>
+    
+    
+    
+    
+    
+    
+
+   
+					
+        </div><!-- /app-content-wrap(App Tab Host Wrapper) -->
+				
+    </div><!-- /app-tabs(Inner Body Including Tabs) -->	
+
+</div><!-- /app-container (Main Frame)-->
+
+
+  
+    <script src="assets/require/jquery.js"></script> 
+    <script src="app_config/appConfig.js"></script>
+    <script src="assets/windows10framework.min.js"></script>
+    <script src="assets/require/win-notification.js"></script>
+    
+    <!--    App Components Config-->
+    <script src="app_config/js/notifiyConfig.js"></script> 
+    
+    <!--  App Demo js  -->
+    <script src="app_demo/progressBarWithIcon_demo.js"></script>
+    <script src="app_demo/progressBarLine_demo.js"></script> 
+    <script src="app_demo/notificatons_demo.js"></script> 
+    <script src="app_demo/alertWin10_demo.js"></script> 
+    
+     
+  
+    
+	
+</body>
+
+
+</html>
